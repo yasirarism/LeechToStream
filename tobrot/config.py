@@ -38,7 +38,7 @@ class Config(object):
     LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech")
     YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
     PYTDL_COMMAND = os.environ.get("PYTDL_COMMAND", "pytdl")
-    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "type = drive\nclient_id = 833850923810-cliasc9ugki633o3v4b4l9avbgbc5pvr.apps.googleusercontent.com\nclient_secret = N1sA4jINJ4yg07NUTZs03Q7Y\nscope = drive\ntoken = {"access_token":"ya29.a0AfH6SMB_YghsLByBwYikXsdcWJ6FpavGbxfYXW7UlcPE936FZbMyiQ-BV-NMXG4WGc-aS0ADIFvEbfW-Hm1mhbqD24HFKt6A5fAFDNfsuR-mfE9lOVjAt8Jzn0p93M-mhrxK032gIRGpJNjxdO3VWf6IO1CP0dxoYxc","token_type":"Bearer","refresh_token":"1//0g6FeVdL-g8yeCgYIARAAGBASNwF-L9IrRy13QID9XAYy9dXC81ecQaVQbd30qhbjmbTQ_tAUCuzNjJ6pmCTRnUflk7HL0T_yrBw","expiry":"2020-10-09T20:49:30.3276637+07:00"}")
+    RCLONE_CONFIG = os.environ.get("type = drive\nclient_id = 833850923810-cliasc9ugki633o3v4b4l9avbgbc5pvr.apps.googleusercontent.com\nclient_secret = N1sA4jINJ4yg07NUTZs03Q7Y\nscope = drive\ntoken = {"access_token":"ya29.a0AfH6SMB_YghsLByBwYikXsdcWJ6FpavGbxfYXW7UlcPE936FZbMyiQ-BV-NMXG4WGc-aS0ADIFvEbfW-Hm1mhbqD24HFKt6A5fAFDNfsuR-mfE9lOVjAt8Jzn0p93M-mhrxK032gIRGpJNjxdO3VWf6IO1CP0dxoYxc","token_type":"Bearer","refresh_token":"1//0g6FeVdL-g8yeCgYIARAAGBASNwF-L9IrRy13QID9XAYy9dXC81ecQaVQbd30qhbjmbTQ_tAUCuzNjJ6pmCTRnUflk7HL0T_yrBw","expiry":"2020-10-09T20:49:30.3276637+07:00"}")
     DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "YDrive")
     INDEX_LINK = os.environ.get("INDEX_LINK", "https://gd.yasir.my.id")
     CANCEL_COMMAND_G = os.environ.get("CANCEL_COMMAND_G", "cancel")
